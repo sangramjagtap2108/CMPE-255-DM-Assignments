@@ -1,0 +1,166 @@
+We will need the following core classes, functions, and methods:
+
+1. `Transaction`: A class to represent a transaction (either income or expense). It will have attributes such as `amount`, `category`, and `date`.
+
+2. `add_transaction()`: A function to add a new transaction.
+
+3. `edit_transaction()`: A function to edit an existing transaction.
+
+4. `delete_transaction()`: A function to delete a transaction.
+
+5. `get_transactions()`: A function to get all transactions.
+
+6. `calculate_totals()`: A function to calculate the total income, total expense, and net balance.
+
+7. `TransactionTest`: A class for unit tests. It will have methods to test the CRUD operations and the `calculate_totals()` function.
+
+Now, let's write the code for each file.
+
+**requirements.txt**
+```plaintext
+flask==1.1.2
+flask-sqlalchemy==2.5.1
+pytest==6.2.4
+```
+
+**app.py**
+```python
+from flask import Flask, request, jsonify
+from flask_sqlalchemy import SQLAlchemy
+from models import Transaction
+
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////tmp/test.db'
+db = SQLAlchemy(app)
+
+@app.route('/transactions', methods=['POST'])
+def add_transaction():
+    data = request.get_json()
+    transaction = Transaction(amount=data['amount'], category=data['category'], date=data['date'])
+    db.session.add(transaction)
+    db.session.commit()
+    return jsonify(transaction.serialize()), 201
+
+@app.route('/transactions/<int:transaction_id>', methods=['PUT'])
+def edit_transaction(transaction_id):
+    data = request.get_json()
+    transaction = Transaction.query.get(transaction_id)
+    transaction.amount = data['amount']
+    transaction.category = data['category']
+    transaction.date = data['date']
+    db.session.commit()
+    return jsonify(transaction.serialize()), 200
+
+@app.route('/transactions/<int:transaction_id>', methods=['DELETE'])
+def delete_transaction(transaction_id):
+    transaction = Transaction.query.get(transaction_id)
+    db.session.delete(transaction)
+    db.session.commit()
+    return '', 204
+
+@app.route('/transactions', methods=['GET'])
+def get_transactions():
+    transactions = Transaction.query.all()
+    return jsonify([transaction.serialize() for transaction in transactions]), 200
+
+@app.route('/totals', methods=['GET'])
+def calculate_totals():
+    incomes = Transaction.query.filter(Transaction.amount > 0).all()
+    expenses = Transaction.query.filter(Transaction.amount < 0).all()
+    total_income = sum(income.amount for income in incomes)
+    total_expense = sum(expense.amount for expense in expenses)
+    net_balance = total_income + total_expense
+    return jsonify({'total_income': total_income, 'total_expense': total_expense, 'net_balance': net_balance}), 200
+
+if __name__ == '__main__':
+    app.run(debug=True)
+```
+
+**models.py**
+```python
+from app import db
+
+class Transaction(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    amount = db.Column(db.Float, nullable=False)
+    category = db.Column(db.String(50), nullable=False)
+    date = db.Column(db.DateTime, nullable=False)
+
+    def serialize(self):
+        return {
+            'id': self.id,
+            'amount': self.amount,
+            'category': self.category,
+            'date': self.date.isoformat()
+        }
+```
+
+**test_app.py**
+```python
+import pytest
+from app import app, db
+from models import Transaction
+from datetime import datetime
+
+@pytest.fixture
+def client():
+    app.config['TESTING'] = True
+    client = app.test_client()
+
+    with app.app_context():
+        db.create_all()
+
+    yield client
+
+    with app.app_context():
+        db.drop_all()
+
+def test_add_transaction(client):
+    response = client.post('/transactions', json={'amount': 1000, 'category': 'Salary', 'date': datetime.now().isoformat()})
+    assert response.status_code == 201
+    data = response.get_json()
+    assert data['amount'] == 1000
+    assert data['category'] == 'Salary'
+
+def test_edit_transaction(client):
+    transaction = Transaction(amount=1000, category='Salary', date=datetime.now())
+    db.session.add(transaction)
+    db.session.commit()
+    response = client.put(f'/transactions/{transaction.id}', json={'amount': 2000, 'category': 'Salary', 'date': datetime.now().isoformat()})
+    assert response.status_code == 200
+    data = response.get_json()
+    assert data['amount'] == 2000
+
+def test_delete_transaction(client):
+    transaction = Transaction(amount=1000, category='Salary', date=datetime.now())
+    db.session.add(transaction)
+    db.session.commit()
+    response = client.delete(f'/transactions/{transaction.id}')
+    assert response.status_code == 204
+
+def test_get_transactions(client):
+    transaction1 = Transaction(amount=1000, category='Salary', date=datetime.now())
+    transaction2 = Transaction(amount=-500, category='Rent', date=datetime.now())
+    db.session.add(transaction1)
+    db.session.add(transaction2)
+    db.session.commit()
+    response = client.get('/transactions')
+    assert response.status_code == 200
+    data = response.get_json()
+    assert len(data) == 2
+
+def test_calculate_totals(client):
+    transaction1 = Transaction(amount=1000, category='Salary', date=datetime.now())
+    transaction2 = Transaction(amount=-500, category='Rent', date=datetime.now())
+    db.session.add(transaction1)
+    db.session.add(transaction2)
+    db.session.commit()
+    response = client.get('/totals')
+    assert response.status_code == 200
+    data = response.get_json()
+    assert data['total_income'] == 1000
+    assert data['total_expense'] == -500
+    assert data['net_balance'] == 500
+```
+
+This is a basic implementation of the backend for the budget and expense tracker. For the frontend, you would need to create HTML, CSS, and JavaScript files to interact with the backend API.

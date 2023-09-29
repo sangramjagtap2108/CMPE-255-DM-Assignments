@@ -1,0 +1,4 @@
+Create a web-based budget and expense tracker using Python Flask for the backend and HTML, CSS, and JavaScript for the 
+frontend. The application should allow users to add, edit, delete, and view both incomes and expenses, categorizing them 
+into various types (e.g., Food, Utilities, Salary, etc.).Implement unit tests to validate the CRUD operations for income 
+and expense items, as well as the correct calculation of total income, total expense, and net balance.
