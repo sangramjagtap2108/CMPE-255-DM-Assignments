@@ -1,10 +1,10 @@
 This repository serves as a comprehensive guide and resource for conducting principled data science projects using the CRISP-DM (Cross-Industry Standard Process for Data Mining), KDD (Knowledge Discovery in Databases), and SEMMA (Sample, Explore, Modify, Model, Assess) methodologies. The project aims to provide a structured approach to data science, ensuring that every step of the process is well-documented and organized.
 
 ### The primary goals of this assignment are as follows:
-Implement the CRISP-DM, KDD, and SEMMA methodologies to ensure a systematic and well-structured approach to data science projects.
-Verify the chatgpt code it generates manually using google colab.
-Publish a Medium.com article summarizing the project and its findings.
-Prepare a research paper based on the project.
+Implement the CRISP-DM, KDD, and SEMMA methodologies to ensure a systematic and well-structured approach to data science projects.  
+Verify the chatgpt code it generates manually using google colab.  
+Publish a Medium.com article summarizing the project and its findings.  
+Prepare a research paper based on the project.  
 
 ### Project Structure
 The project is structured into the following sections:
