@@ -6,8 +6,8 @@ Verify the chatgpt code it generates manually using google colab.
 Publish a Medium.com article summarizing the project and its findings.     
 Prepare a research paper based on the project.     
 
-### Project Structure
-The project is structured into the following sections:
+### Assignment Structure
+The assignment is structured into the following sections:
 
 ### CRISP-DM Methodology: 
 [Medium](https://medium.com/@sangramjagtap096/this-research-aims-to-predict-avocado-prices-using-various-machine-learning-algorithms-and-bf7a48d5a6d7)
