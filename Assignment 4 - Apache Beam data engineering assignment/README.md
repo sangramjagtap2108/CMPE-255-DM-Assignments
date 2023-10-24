@@ -7,7 +7,7 @@ Bar Chart: Represents the average sale price based on sale condition.
 Scatter Plot: Displays the relationship between living area (GrLivArea) and sale price (SalePrice).    
 
 Setup:   
-I have implemented the assignment by 2 ways -
+I have implemented the assignment by 2 ways -  
 1. In google colab using IPython.core.display to display D3 visualization in google colab.
 
 Output -   
