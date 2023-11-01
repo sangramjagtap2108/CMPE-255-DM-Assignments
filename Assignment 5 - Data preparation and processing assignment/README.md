@@ -26,9 +26,7 @@ Below are the notebooks detailing each type:
 **Graph Data Analysis**       
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Assignment%205%20-%20Data%20preparation%20and%20processing%20assignment/Graph_Data_Analysis.ipynb)
 
-<a target="_blank" href="https://medium.com/@sangramjagtap096/exploratory-data-analysis-eda-preparation-and-processing-of-renowned-kaggle-datasets-75bda3b97eae"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@sangramjagtap096/index" alt="Medium Article">
-
-[Exploratory Data Analysis (EDA), Preparation, and Processing of Renowned Kaggle Datasets](<a target="_blank" href="https://medium.com/@sangramjagtap096/exploratory-data-analysis-eda-preparation-and-processing-of-renowned-kaggle-datasets-75bda3b97eae"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@sangramjagtap096/index" alt="Medium Article">
+[Medium Article](<a target="_blank" href="https://medium.com/@sangramjagtap096/exploratory-data-analysis-eda-preparation-and-processing-of-renowned-kaggle-datasets-75bda3b97eae"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@sangramjagtap096/index" alt="Exploratory Data Analysis (EDA), preparation, and processing of renowned Kaggle datasets">
 )
 
 ## Getting Started:
