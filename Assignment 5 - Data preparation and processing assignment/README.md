@@ -1,3 +1,8 @@
+# CMPE-255 - Data Preparation and processing assignment
+We delved deep into exploratory data analysis, preprocessing, and the construction of machine learning models using a variety of datasets obtained from Kaggle.
+
+Below are the notebooks detailing each type:
+
 ## Notebooks
 
 **Tabular Data Analysis**    
@@ -23,6 +28,8 @@
 
 <a target="_blank" href="https://medium.com/@sangramjagtap096/exploratory-data-analysis-eda-preparation-and-processing-of-renowned-kaggle-datasets-75bda3b97eae"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@sangramjagtap096/index" alt="Medium Article">
 
+[Exploratory Data Analysis (EDA), Preparation, and Processing of Renowned Kaggle Datasets](<a target="_blank" href="https://medium.com/@sangramjagtap096/exploratory-data-analysis-eda-preparation-and-processing-of-renowned-kaggle-datasets-75bda3b97eae"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@sangramjagtap096/index" alt="Medium Article">
+)
 
 ## Getting Started:
 
