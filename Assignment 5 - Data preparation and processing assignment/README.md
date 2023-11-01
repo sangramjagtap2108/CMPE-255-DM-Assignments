@@ -20,3 +20,15 @@
 
 **Graph Data Analysis**       
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Assignment%205%20-%20Data%20preparation%20and%20processing%20assignment/Graph_Data_Analysis.ipynb)
+
+## Getting Started:
+
+To get started with the notebooks, ensure you have Jupyter Notebook installed. Clone the repository. Open the desired notebook and run the cells sequentially.
+
+## Dependencies:
+
+Make sure to install the necessary libraries and dependencies as mentioned in each notebook.
+
+## Contribution:
+
+Feel free to fork the repository and make any contributions. Pull requests are welcome!
