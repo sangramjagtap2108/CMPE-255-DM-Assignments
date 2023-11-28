@@ -20,19 +20,11 @@ The presentation provides a succinct overview of the research paper, tailored fo
 3. Methodology and data mining techniques used.     
 4. Summary of key results and findings.    
 
-Presentation Video
-https://github.com/sangramjagtap2108/CMPE-255-DM-Assignments/assets/55223872/c223d86d-786a-40aa-bef8-b7a32371a766
-
 [Presentation Video](<a target="_blank" href="https://github.com/sangramjagtap2108/CMPE-255-DM-Assignments/assets/55223872/c223d86d-786a-40aa-bef8-b7a32371a766"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@sangramjagtap096/index" alt="Spam ham detection using naive bayes classifier">
 )
 
-
-Slideshare Presentation    
-https://www.slideshare.net/sangramjagtap096/from-spam-to-ham-sms-detection-via-nave-bayespptx
-
 [Slideshare Presentation](<a target="_blank" href="https://www.slideshare.net/sangramjagtap096/from-spam-to-ham-sms-detection-via-nave-bayespptx"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@sangramjagtap096/index" alt="Spam ham detection using naive bayes classifier">
 )
-
 
 ## Medium Article
 The Medium article, designed for a student audience, delves into the details of the paper in an accessible and engaging manner. It includes:
@@ -41,8 +33,6 @@ The Medium article, designed for a student audience, delves into the details of 
 3. Insights into the experimentation and dataset used.    
 4. Analysis of the results and their implications in the real world.    
 5. Additional resources and links for further exploration.    
-
-https://medium.com/@sangramjagtap096/machine-learning-unveiled-combatting-sms-spam-with-na%C3%AFve-bayes-classifier-098d7a0d1c18    
 
 [Medium Article](<a target="_blank" href="https://medium.com/@sangramjagtap096/machine-learning-unveiled-combatting-sms-spam-with-na%C3%AFve-bayes-classifier-098d7a0d1c18"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@sangramjagtap096/index" alt="Spam ham detection using naive bayes classifier">
 )
@@ -54,8 +44,3 @@ Medium Article: Best for educational purposes and general audience engagement.
 
 ## Acknowledgments   
 Maram Sai Charan Reddy, for the insightful research paper.
-
-
-
-
-
