@@ -1,5 +1,5 @@
 ## Overview    
-This project revolves around the research paper titled "SMS Spam and Ham Detection Using Naïve Bayes Algorithm" by Maram Sai Charan Reddy. The objective is to explore the application of the Naïve Bayes algorithm in distinguishing between spam and legitimate (ham) messages in SMS. This repository contains the original research paper, a PowerPoint presentation summarizing the key findings, and a detailed Medium article elaborating on the study.      
+This assignment revolves around the research paper titled "SMS Spam and Ham Detection Using Naïve Bayes Algorithm" by Maram Sai Charan Reddy. The objective is to explore the application of the Naïve Bayes algorithm in distinguishing between spam and legitimate (ham) messages in SMS. This repository contains the original research paper, a PowerPoint presentation summarizing the key findings, and a detailed Medium article elaborating on the study.      
 
 ## Contents     
 Research Paper: The original research paper providing in-depth analysis and methodology.   
