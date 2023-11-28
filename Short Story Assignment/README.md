@@ -12,6 +12,10 @@ Medium Article: An engaging, detailed article aimed at students and general audi
 3. Objective: Develop a method to classify SMS messages as spam or ham using the Naïve Bayes algorithm.    
 4. Key Findings: Achieved a classification accuracy of 98.13%.    
 
+[Research Paper](<a target="_blank" href="https://deliverypdf.ssrn.com/delivery.php?ID=974110106091099097024098080093030090122078057047002065122086020091105014018029072096060017121055126111014099102122008120107014041053089019092101115025092110031069110064034002001020064000065030100065091119104120081098093091115001064126117080118118081072&EXT=pdf&INDEX=TRUE
+"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@sangramjagtap096/index" alt="Spam ham detection using naive bayes classifier">
+)
+
 ## Presentation   
 The presentation provides a succinct overview of the research paper, tailored for educational or professional presentations. It covers the following key areas:    
 
