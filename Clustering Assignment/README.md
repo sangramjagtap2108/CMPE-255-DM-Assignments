@@ -1,11 +1,11 @@
-# CMPE-255 - Data Preparation and processing assignment
+# CMPE-255 - Clustering Assignment
 We delved deep into exploratory data analysis, preprocessing, and the construction of machine learning models using a variety of datasets obtained from Kaggle.
 
 Below are the notebooks detailing each type:
 
 ## Notebooks
 
-**Tabular Data Analysis**    
+**K-Means clustering**    
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Assignment%205%20-%20Data%20preparation%20and%20processing%20assignment/Tabular_Data_Analysis.ipynb)
 
 **Timeseries Data Analysis**       
