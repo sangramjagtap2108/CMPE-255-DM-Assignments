@@ -6,28 +6,31 @@ Below are the notebooks detailing each type:
 ## Notebooks
 
 **K-Means clustering**    
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/https://github.com/sangramjagtap2108/CMPE-255-DM-Assignments/edit/main/Clustering%20Assignment/README.md)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Clustering%20Assignment/Gaussian_mixture_models_clustering.ipynb)
 
-**Timeseries Data Analysis**       
+**Hierarchical clustering**       
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Assignment%205%20-%20Data%20preparation%20and%20processing%20assignment/Timeseries_Data_Analysis.ipynb)
 
-**Spatio Temporal Data Analysis**       
+**Gaussian mixture models clustering**       
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Assignment%205%20-%20Data%20preparation%20and%20processing%20assignment/Spatio_Temporal_Data_Analysis.ipynb)
 
-**Image Data Analysis**    
+**DB Scan clustering**    
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Assignment%205%20-%20Data%20preparation%20and%20processing%20assignment/Image_Data_Analysis.ipynb)
 
-**Audio Data Analysis** -    
+**Anomaly detection using pyOD** -    
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Assignment%205%20-%20Data%20preparation%20and%20processing%20assignment/Audio_Data_Analysis.ipynb)
 
-**Video Data Analysis**      
+**Clustering of timeseries data**      
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Assignment%205%20-%20Data%20preparation%20and%20processing%20assignment/Video_Data_Analysis.ipynb)
 
-**Graph Data Analysis**       
+**Clustering  of documents**       
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Assignment%205%20-%20Data%20preparation%20and%20processing%20assignment/Graph_Data_Analysis.ipynb)
 
-[Medium Article](<a target="_blank" href="https://medium.com/@sangramjagtap096/exploratory-data-analysis-eda-preparation-and-processing-of-renowned-kaggle-datasets-75bda3b97eae"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@sangramjagtap096/index" alt="Exploratory Data Analysis (EDA), preparation, and processing of renowned Kaggle datasets">
-)
+**Clustering with images**       
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Assignment%205%20-%20Data%20preparation%20and%20processing%20assignment/Graph_Data_Analysis.ipynb)
+
+**Audio embeddings**       
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Assignment%205%20-%20Data%20preparation%20and%20processing%20assignment/Graph_Data_Analysis.ipynb)
 
 ## Getting Started:
 
