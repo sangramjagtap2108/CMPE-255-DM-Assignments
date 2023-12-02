@@ -11,25 +11,25 @@ Below are the notebooks detailing each type:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Clustering%20Assignment/Hierarchical_clustering.ipynb)
 
 **Gaussian mixture models clustering**       
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Assignment%205%20-%20Data%20preparation%20and%20processing%20assignment/Gaussian_mixture_models_clustering.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Clustering%20Assignment/Gaussian_mixture_models_clustering.ipynb)
 
 **DB Scan clustering**    
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Assignment%205%20-%20Data%20preparation%20and%20processing%20assignment/DB_Scan_clustering_using_pycaret_library.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Clustering%20Assignment/DB_Scan_clustering_using_pycaret_library.ipynb)
 
 **Anomaly detection using pyOD** -    
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Assignment%205%20-%20Data%20preparation%20and%20processing%20assignment/Anomaly_detection_using_pyOD(univariate).ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Clustering%20Assignment/Anomaly_detection_using_pyOD(univariate).ipynb)
 
 **Clustering of timeseries data**      
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Assignment%205%20-%20Data%20preparation%20and%20processing%20assignment/Clustering_of_timeseries_data_using_pretrained_models_.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Clustering%20Assignment/Clustering_of_timeseries_data_using_pretrained_models_.ipynb)
 
 **Clustering  of documents**       
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Assignment%205%20-%20Data%20preparation%20and%20processing%20assignment/Clustering_of_documents.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Clustering%20Assignment/Clustering_of_documents.ipynb)
 
 **Clustering with images**       
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Assignment%205%20-%20Data%20preparation%20and%20processing%20assignment/Clustering_with_images_using_imagebind_llm_embeddings.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Clustering%20Assignment/Clustering_with_images_using_imagebind_llm_embeddings.ipynb)
 
 **Audio embeddings**       
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Assignment%205%20-%20Data%20preparation%20and%20processing%20assignment/Audio_embeddings_using_imagebind_llms.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Clustering%20Assignment/Audio_embeddings_using_imagebind_llms.ipynb)
 
 ## Getting Started:
 
