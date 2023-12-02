@@ -8,7 +8,7 @@ Below are the notebooks detailing each type:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Clustering%20Assignment/K_Means_clustering.ipynb)
 
 **Hierarchical clustering**       
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Assignment%205%20-%20Data%20preparation%20and%20processing%20assignment/Hierarchical_clustering.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Clustering%20Assignment/Hierarchical_clustering.ipynb)
 
 **Gaussian mixture models clustering**       
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Assignment%205%20-%20Data%20preparation%20and%20processing%20assignment/Gaussian_mixture_models_clustering.ipynb)
