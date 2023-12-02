@@ -6,7 +6,7 @@ Below are the notebooks detailing each type:
 ## Notebooks
 
 **K-Means clustering**    
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Assignment%205%20-%20Data%20preparation%20and%20processing%20assignment/Tabular_Data_Analysis.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/https://github.com/sangramjagtap2108/CMPE-255-DM-Assignments/edit/main/Clustering%20Assignment/README.md)
 
 **Timeseries Data Analysis**       
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Assignment%205%20-%20Data%20preparation%20and%20processing%20assignment/Timeseries_Data_Analysis.ipynb)
