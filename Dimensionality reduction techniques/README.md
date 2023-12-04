@@ -1,35 +1,20 @@
 # CMPE-255 - Clustering Assignment
 
-Below are the notebooks detailing each type:
+Dimensionality Reduction Techniques
 
 ## Notebooks
 
 **K-Means clustering**    
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Clustering%20Assignment/K_Means_clustering.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Dimensionality%20reduction%20techniques/Dimensionality_reduction_techniques.ipynb
+)
 
 **Hierarchical clustering**       
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Clustering%20Assignment/Hierarchical_clustering.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Dimensionality%20reduction%20techniques/Umap_Dimensionality_reduction_technique.ipynb
+)
 
 **Gaussian mixture models clustering**       
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Clustering%20Assignment/Gaussian_mixture_models_clustering.ipynb)
-
-**DB Scan clustering**    
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Clustering%20Assignment/DB_Scan_clustering_using_pycaret_library.ipynb)
-
-**Anomaly detection using pyOD** -    
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Clustering%20Assignment/Anomaly_detection_using_pyOD(univariate).ipynb)
-
-**Clustering of timeseries data**      
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Clustering%20Assignment/Clustering_of_timeseries_data_using_pretrained_models_.ipynb)
-
-**Clustering  of documents**       
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Clustering%20Assignment/Clustering_of_documents.ipynb)
-
-**Clustering with images**       
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Clustering%20Assignment/Clustering_with_images_using_imagebind_llm_embeddings.ipynb)
-
-**Audio embeddings**       
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Clustering%20Assignment/Audio_embeddings_using_imagebind_llms.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sangramjagtap2108/CMPE-255-DM-Assignments/blob/main/Dimensionality%20reduction%20techniques/Dimensionality%20reduction%20using%20data%20bricks.ipynb
+)
 
 ## Getting Started:
 
