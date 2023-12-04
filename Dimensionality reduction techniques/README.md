@@ -1,6 +1,4 @@
-# CMPE-255 - Clustering Assignment
-
-Dimensionality Reduction Techniques
+# CMPE-255 - Dimensionality Reduction Techniques
 
 ## Notebooks
 
